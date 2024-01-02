@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class TodoListController extends Controller
 {
     public function index() {
-        dd("Helllollllllllll");
+        return response(['lists' => []]);
     }
 }

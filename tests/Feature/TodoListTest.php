@@ -14,8 +14,6 @@ class TodoListTest extends TestCase
      */
     public function test_example(): void
     {
-        // $this->withoutExceptionHandling();
-
         // preparation [prepare]  Step - 1
 
         // action [perform]  Step - 2
@@ -24,6 +22,6 @@ class TodoListTest extends TestCase
 
 
         // assertion [predict]  Step - 3
-        $this->assertEquals(200, $response->status());
+        $this->assertEquals(1, count($response->json()));
     }
 }
