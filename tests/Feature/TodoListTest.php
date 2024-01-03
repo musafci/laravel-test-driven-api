@@ -12,7 +12,7 @@ class TodoListTest extends TestCase
      * A basic feature test example.
      * test run command : php artisan test --filter=TodoListTest
      */
-    public function test_example(): void
+    public function test_fetch_todo_lists(): void
     {
         // preparation [prepare]  Step - 1
 
